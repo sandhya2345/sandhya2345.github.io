@@ -41,6 +41,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 nav {
@@ -67,6 +68,7 @@ nav .links a {
 
 .content {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
   height: 100%;
@@ -125,3 +127,5 @@ nav .links a {
   height: 100%;
   object-fit: cover;
 }
+
+
