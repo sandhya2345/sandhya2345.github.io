@@ -7,36 +7,116 @@
   <title>Sandhya Timalsena | Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <nav>
-    <div class="name">Sandhya Timalsena</div>
-    <div class="links">
-      <a href="project.html">Projects</a>
-      <a href="about.html">About</a>
-    </div>
-  </nav>
 
-  <div id="content" class="content">
-    <div class="leftSection">
-      <h1>Welcome to my portfolio!</h1>
-      <p>Hi, I'm Sandhya Timalsena, a passionate web developer with a love for creating dynamic and beautiful web experiences. I specialize in front-end development and have a knack for design and usability.</p>
-      <div class="social-links">
-        <a href="https://linkedin.com" target="_blank" class="button">LinkedIn</a>
-        <a href="https://github.com" target="_blank" class="button">GitHub</a>
-      </div>
+  <nav>
+    <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+
+<div id="content" class="content relative">
+  <img class="image" src="photo1.jpg" alt="photos">
+  <div class="inner-content absolute top-0 left-0  p-4 bg-white bg-opacity-80 text-black rounded">
+    <h1 class="text-xl font-bold">Sandhya Timalsena</h1>
+    <p class="text-sm">Web Developer | Creative Thinker | Problem Solver</p>
+  </div>
+</div>
+
+  <section id="projects">
+    <div class="project-tile">
+      <a href="">These are some of my projects</a>
+      <hr>
     </div>
-    <div class="rightSection">
-      <div class="image-container">
-        <div class="glow-effect">
-          <img src="image.png" alt="Sandhya Timalsena">
+  </section>
+  <section class="grid grid-cols-2 h-screen">
+    <div class="col-span-1 flex items-center justify-center" style="background: #3a8c9e;">
+        <div class="p-16 text-white">
+            <h1 class="text-2xl font-bold mb-2"></h1>
+            <p class="text-lg text-2xl font-large">
+            </p>
         </div>
+    </div>
+    <div class="col-span-1 flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0"
+             style=" background-attachment: fixed; background-size: 720px 651px; background-repeat: no-repeat; background-position: right;">
+        </div>
+    </div>
+</section>
+
+<section class="flex h-screen overflow-hidden">
+  <div class="w-1/4 bg-white items-center justify-center" style="background:#90AFC5;">
+      <div class="flex items-center justify-center h-full">
+          <h1 class="text-4xl text-white transform -rotate-90">About us</h1>
       </div>
+  </div>
+  <div class="w-2/4 bg-white flex items-center justify-center h-screen">
+      <div class="p-16 text-black">
+          <p class="text-lg text-2xl"></p>
+      </div>
+  </div>
+  <div class="w-1/4 bg-white items-center justify-center" style="background: #E3867D;">
+      <div class="flex items-center justify-center h-full">
+          <h1 class="text-4xl text-white transform -rotate-90">About us</h1>
+      </div>
+  </div>
+</section>
+
+<section class="grid grid-cols-2 h-screen">
+  <div class="col-span-1 order-first flex items-center justify-center relative overflow-hidden">
+    <div class="absolute inset-0"
+         style="background-image: url('assets/images/about2.jpg'); background-attachment: fixed; background-size: 720px 651px; background-repeat: no-repeat; background-position: left;">
     </div>
   </div>
+  <div class="col-span-1 order-last flex items-center justify-center" style="background:#F9E795;">
+      <div class="p-14 text-black">
+          <h1 class="text-2xl font-bold mb-2"></span></h1>
+          <p class="text-lg text-2xl font-large">
+          </p>
+      </div>
+  </div>
+</section>
+
+<section class="flex h-screen overflow-hidden">
+  <div class="w-1/4 items-center justify-center" style="background:#E3867D;">
+      <div class="flex items-center justify-center h-full">
+          <h1 class="text-4xl text-white transform -rotate-90">Our Story</h1>
+      </div>
+  </div>
+  <div class="w-3/4 flex items-center justify-center" style="background:#90AFC5;">
+      <div class="p-32 text-black">
+          <h1 class="text-3xl font-bold mb-2"></h1>
+          <p class="text-lg text-2xl font-large">
+          </p>
+      </div>
+  </div>
+</section>
+
+<section class="grid grid-cols-2 h-screen">
+  <div class="col-span-1 flex items-center justify-center" style="background: #83c096;">
+      <div class="p-16 text-white">
+          <h1 class="text-2xl font-bold mb-2"></h1>
+          <p class="text-lg text-2xl font-large">
+          </p>
+      </div>
+  </div>
+  <div class="col-span-1 flex items-center justify-center relative overflow-hidden">
+      <div class="absolute inset-0"
+           style="background-image: url('Woman\ reading-bro\(2\).png'); background-attachment: fixed; background-size: 720px 651px; background-repeat: no-repeat; background-position: right;">
+      </div>
+  </div>
+</section>
 </body>
 
 </html>
