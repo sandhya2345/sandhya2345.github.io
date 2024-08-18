@@ -59,12 +59,12 @@
 
     <section id="projects">
         <div class="project-tile">
-            <a href="">These are some of new my projects</a>
+            <a href="">These are some of my new projects</a>
             <hr>
         </div>
-
-        <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 gap-6">
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden" style="width: 300px; height: 400px;">
+    
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img src="photo1.jpg" alt="Tribute Page" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h2 class="text-xl font-semibold">Dr. Norman Borlaug</h2>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden" style="width: 300px; height: 400px;">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img src="photo1.jpg" alt="Tribute Page" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h2 class="text-xl font-semibold mb-2">Dr. Norman Borlaug</h2>
@@ -84,7 +84,7 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden" style="width: 300px; height: 400px;">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img src="photo1.jpg" alt="Tribute Page" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h2 class="text-xl font-semibold mb-2">Dr. Norman Borlaug</h2>
@@ -94,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden" style="width: 300px; height: 400px;">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img src="photo1.jpg" alt="Tribute Page" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h2 class="text-xl font-semibold mb-2">Dr. Norman Borlaug</h2>
@@ -105,8 +105,8 @@
                 </div>
             </div>
         </div>
-
     </section>
+    
 
 
 
@@ -170,47 +170,54 @@
 
 <section class="mobile-only">
     <!-- Mobile Layout for Section 1 -->
-    <section class="flex flex-col items-center h-auto bg-[#3a8c9e]">
-        <div class="p-6 text-black text-center">
-            <h1 class="text-2xl font-semibold mb-4">Help Me!</h1>
-            <p class="text-base">
-                The Pet Adoption project is a web application built using Node.js, HTML, and CSS. It allows users to
-                browse and adopt pets, providing a simple and user-friendly interface for finding animals in need of
-                homes. The project efficiently connects potential adopters with pets, ensuring a smooth and seamless
-                adoption process.
-            </p>
-        </div>
-        <div class="w-full h-64 relative overflow-hidden">
-            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('pic1.jpg');"></div>
+    <section class="flex flex-col items-center bg-[#3a8c9e]">
+        <div class="w-full flex flex-col md:flex-row items-center">
+            <div class="p-4 text-black text-center md:text-left md:w-1/2">
+                <h1 class="text-xl font-semibold mb-4">Help Me!</h1>
+                <p class="text-sm">
+                    The Pet Adoption project is a web application built using Node.js, HTML, and CSS. It allows users to
+                    browse and adopt pets, providing a simple and user-friendly interface for finding animals in need of
+                    homes. The project efficiently connects potential adopters with pets, ensuring a smooth and seamless
+                    adoption process.
+                </p>
+            </div>
+            <div class="md:w-1/2 h-48 relative overflow-hidden">
+                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('pic1.jpg');"></div>
+            </div>
         </div>
     </section>
 
     <!-- Mobile Layout for Section 2 -->
-    <section class="flex flex-col items-center h-auto bg-[#F9E795]">
-        <div class="w-full h-64 relative overflow-hidden">
-            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('photo4.jpg');"></div>
-        </div>
-        <div class="p-6 text-black text-center">
-            <h1 class="text-2xl font-bold mb-4"></h1>
-            <p class="text-base">
-                <!-- Add your content here -->
-            </p>
+    <section class="flex flex-col items-center bg-[#F9E795]">
+        <div class="w-full flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 h-48 relative overflow-hidden order-last md:order-first">
+                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('photo4.jpg');"></div>
+            </div>
+            <div class="p-4 text-black text-center md:text-left md:w-1/2">
+                <h1 class="text-xl font-bold mb-4"></h1>
+                <p class="text-sm">
+                    <!-- Add your content here -->
+                </p>
+            </div>
         </div>
     </section>
 
     <!-- Mobile Layout for Section 3 -->
-    <section class="flex flex-col items-center h-auto bg-[#be3144]">
-        <div class="p-6 text-white text-center">
-            <h1 class="text-2xl font-bold mb-4"></h1>
-            <p class="text-base">
-                <!-- Add your content here -->
-            </p>
-        </div>
-        <div class="w-full h-64 relative overflow-hidden">
-            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('photo3.jpg');"></div>
+    <section class="flex flex-col items-center bg-[#be3144]">
+        <div class="w-full flex flex-col md:flex-row items-center">
+            <div class="p-4 text-white text-center md:text-left md:w-1/2">
+                <h1 class="text-xl font-bold mb-4"></h1>
+                <p class="text-sm">
+                    <!-- Add your content here -->
+                </p>
+            </div>
+            <div class="md:w-1/2 h-48 relative overflow-hidden">
+                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('photo3.jpg');"></div>
+            </div>
         </div>
     </section>
 </section>
+
 
 
 
